@@ -16,7 +16,8 @@ def get_users():
     users_data = [
         {'id': 1},
         {'id': 2},
-        {'id': 3}
+        {'id': 3},
+        {'id': 4}
     ]
     #response = customize_response(request, users_data)
     return jsonify(users_data)
